@@ -13,6 +13,7 @@ const Content = styled.div`
   margin: 0 auto;
   max-width: 960;
   padding: 1.45rem 1.0875rem;
+  background-color: brown;
   h1 {
     margin: 0;
   }
@@ -23,7 +24,7 @@ const Content = styled.div`
     font-family: "Barlow Semi Condensed";
   }
 `
-const Header = ({ siteTitle = "" }: Props) => (
+const Header = ({ siteTitle = "" }: Props): JSX.Element => (
   <StyledHeader>
     <Content>
       <h1>

@@ -16,7 +16,12 @@ interface Props {
   title: string
 }
 
-function SEO({ description, lang = "en", meta = [], title }: Props) {
+function SEO({
+  description,
+  lang = "en",
+  meta = [],
+  title,
+}: Props): JSX.Element {
   const { site } = useStaticQuery(
     graphql`
       query {
