@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-typescript-starter",
+  "name": "typescript-template-gastby",
   "private": true,
   "description": "A Gatsby Typescript starter site",
   "version": "0.1.0",
-  "author": "Noah Matsell <noahmatsell@gmail.com>",
+  "author": "Ben Langham",
   "dependencies": {
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
@@ -52,9 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/noahub/gatsby-typescript-starter"
-  },
-  "bugs": {
-    "url": "https://github.com/noahub/gatsby-typescript-starter/issues"
+    "url": "https://github.com/blanghamm/typescript-template-gatsby"
   }
 }
